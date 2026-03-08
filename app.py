@@ -4,7 +4,6 @@ def explain(name: str):
     name = name.strip() or "Student"
     return f"""Hello, {name}!
 
-Hello everyone from Hugging Face!
 This Hugging Face Space is running successfully.
 
 Deployment flow:
@@ -19,7 +18,7 @@ Why this is good for students:
 
 with gr.Blocks(title="GitHub to Hugging Face Demo") as demo:
     gr.Markdown("""
-    # GitHub to Hugging Face Demo
+    # Hello everyone from Hugging Face!, GitHub to Hugging Face Demo
     A lightweight NTU-style classroom demo Space.
     """)
     name = gr.Textbox(label="Enter your name", placeholder="Type your name here")
