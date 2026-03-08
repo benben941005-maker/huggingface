@@ -18,8 +18,8 @@ Why this is good for students:
 
 with gr.Blocks(title="GitHub to Hugging Face Demo") as demo:
     gr.Markdown("""
-    # Hello everyone from Hugging Face!, GitHub to Hugging Face Demo
-    A lightweight NTU-style classroom demo Space.
+    # GitHub to Hugging Face Demo
+    A lightweight NTU-style classroom DSAI demo Space.
     """)
     name = gr.Textbox(label="Enter your name", placeholder="Type your name here")
     output = gr.Textbox(label="App Output", lines=8)
