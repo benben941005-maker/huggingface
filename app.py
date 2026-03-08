@@ -4,6 +4,7 @@ def explain(name: str):
     name = name.strip() or "Student"
     return f"""Hello, {name}!
 
+Hello everyone from Hugging Face!
 This Hugging Face Space is running successfully.
 
 Deployment flow:
